@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>User Registration Form</title>
+</head>
+
+<body>
+
+<h2>User Registration Form</h2>
+
+<form action="process.php" method="post">
+
+Name:<br>
+<input type="text" name="name" required>
+<br><br>
+
+Email:<br>
+<input type="email" name="email" required>
+<br><br>
+
+Password:<br>
+<input type="password" name="password" required>
+<br><br>
+
+Gender:<br>
+<input type="radio" name="gender" value="Male"> Male
+<input type="radio" name="gender" value="Female"> Female
+<br><br>
+
+Date of Birth:<br>
+<input type="date" name="dob">
+<br><br>
+
+Phone Number:<br>
+<input type="tel" name="phone">
+<br><br>
+
+Address:<br>
+<textarea name="address"></textarea>
+<br><br>
+
+Country:<br>
+<select name="country">
+<option>India</option>
+<option>USA</option>
+<option>UK</option>
+<option>Canada</option>
+</select>
+<br><br>
+
+Hobbies:<br>
+<input type="checkbox" name="hobby[]" value="Reading"> Reading
+<input type="checkbox" name="hobby[]" value="Music"> Music
+<input type="checkbox" name="hobby[]" value="Sports"> Sports
+<br><br>
+
+<input type="submit" value="Register">
+
+</form>
+
+</body>
+</html>
